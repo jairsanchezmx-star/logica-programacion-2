@@ -1,6 +1,6 @@
-let temperatura = +prompt("Programa que funciona para convertir gradis Celsius a Fahrenheit y Kelvin");
-if (temperatura == !Number){
+let temperatura = +prompt("Programa que funciona para convertir gradis Celsius a Fahrenheit y Kelvin, ingresa los grados Celsius");
 console.log(temperatura);
+if (!Number.isNaN(temperatura)){
 
 let Fah = (1.8 * temperatura) + 32;
 let kel =  (temperatura+273.15);
